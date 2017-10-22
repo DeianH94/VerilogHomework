@@ -1,0 +1,56 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "bcd_digit_adder_test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "mode": 4,
+            "out": "amcQw_d.o",
+            "bytes": 4572,
+            "archive": "archive.0/_281_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "mode": 4,
+            "out": "reYIK_d.o",
+            "bytes": 18556,
+            "archive": "archive.0/_281_archive_1.a"
+        },
+        "sLDZE_d": {
+            "mod": "bcd_digit_adder_test",
+            "mode": 4,
+            "out": "sLDZE_d.o",
+            "bytes": 8996,
+            "archive": "archive.0/_281_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_281_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    4572
+                ],
+                [
+                    "reYIK_d.o",
+                    18556
+                ],
+                [
+                    "sLDZE_d.o",
+                    8996
+                ]
+            ],
+            "size": 32124
+        }
+    ]
+}

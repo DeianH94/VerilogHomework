@@ -1,0 +1,56 @@
+{
+    "Modules": {
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "counter_999_test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "I6pcw_d": {
+            "mode": 4,
+            "mod": "counter_999_test",
+            "out": "I6pcw_d.o",
+            "bytes": 16361,
+            "archive": "archive.0/_287_archive_1.a"
+        },
+        "amcQw_d": {
+            "mode": 4,
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "bytes": 4660,
+            "archive": "archive.0/_287_archive_1.a"
+        },
+        "reYIK_d": {
+            "mode": 4,
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 18643,
+            "archive": "archive.0/_287_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 39664,
+            "archive": "archive.0/_287_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    4660
+                ],
+                [
+                    "reYIK_d.o",
+                    18643
+                ],
+                [
+                    "I6pcw_d.o",
+                    16361
+                ]
+            ]
+        }
+    ]
+}
