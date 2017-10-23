@@ -1,0 +1,56 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "sequence_detector_11011_test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "bytes": 4668,
+            "mode": 4,
+            "archive": "archive.0/_281_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 18643,
+            "mode": 4,
+            "archive": "archive.0/_281_archive_1.a"
+        },
+        "pJM9f_d": {
+            "mod": "sequence_detector_11011_test",
+            "out": "pJM9f_d.o",
+            "bytes": 61375,
+            "mode": 4,
+            "archive": "archive.0/_281_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_281_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    4668
+                ],
+                [
+                    "reYIK_d.o",
+                    18643
+                ],
+                [
+                    "pJM9f_d.o",
+                    61375
+                ]
+            ],
+            "size": 84686
+        }
+    ]
+}

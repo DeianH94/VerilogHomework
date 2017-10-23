@@ -1,0 +1,50 @@
+{
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "sequence_detector_11011_test": [
+            "sequence_detector_11011_test",
+            "pJM9f",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "sequence_detector_11011_test"
+    ],
+    "stat": {
+        "nMops": 3001
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 36683
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.281.json"
+    ],
+    "Misc": {
+        "cwd": "/home/runner",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/runner/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/runner/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CompileStatus": "Successful"
+}
